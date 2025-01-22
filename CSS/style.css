@@ -1,0 +1,40 @@
+.ex1 {
+    width: 150px;
+    height: 100px;
+    background-color: blueviolet;
+}
+
+
+.ex1:hover{
+    width: 500px;
+}
+
+.ex2 {
+    /* transition: background-color,blabla 5s,10s;    syntaxe utilisant "all" sur 10s  */
+     transition: background-color 5s, transform 2s; /* syntaxe correct   */
+}
+
+.ex2:hover{
+    width: 300px;
+    height: 100px;
+    background-color: aqua;
+    transform: rotate(7deg) scaleY(1.5);
+}
+
+.ex3{
+    transition: height 2s;
+}
+
+.ex3:hover{
+    height: 150px;
+    background-color: brown;
+}
+
+h2{
+    display: inline-block;
+}
+
+h2:hover{
+    transform: rotate(30deg) scale(2);
+    transition: transform 2s;
+}
